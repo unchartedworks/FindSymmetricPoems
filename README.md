@@ -9,11 +9,10 @@ I got inspirations from https://github.com/LingDong-/magic-square-poems .
 I prefer symmetric matrix but not magic matrix, because I think it's a symmetric matrix.
 Observe that when a matrix is symmetric, as in these cases, the matrix is equal to its transpose.
 
-To solve this problem, I implemented a quicker parallel alogorithm. It takes 36 seconds to find the solution.
+To solve this problem, I implemented a quicker parallel alogorithm. It only takes 36 seconds to find the symmetric poems.
 
 *Run*
 ```
-go mod tidy
 go run main.go
 ```
 
