@@ -10,7 +10,7 @@ import (
 
 func FindSymmetricPoems() [][]string {
 	path := "./5.txt"
-	var xss = ReadList(path)
+	xss := ReadList(path)
 	dict := CreateDictionary(xss)
 	results := ParallelSearch(dict)
 	return RunesToStrings(results)
